@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label">Name</label>
+      
+      <input type="text" placeholder="Enter your name" name="text" id="name" required/>
+      <label id="email-label">Email</label>
+      <input type="email" placeholder="Enter your email" name="email" id="email" required/>
+      <label id="number-label">Age</label>
+      <input type="number" placeholder="Age" min="8" max="10" name="number" id="number"/>
+      <input type="radio" class="inline" name="gender" value="male">Definitely
+      <input type="radio" class="inline" name="gender" value="male">
+        May be
+      <select id="dropdown">
+        <option>Student</option>
+         <option>Full time job</option>
+      </select>
+      <input type="checkbox" value="checkbox" />
+      <input type="checkbox" value="checkbox" />
+      <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
